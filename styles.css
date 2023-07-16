@@ -1,0 +1,399 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  /* font-family:ROBOTO,Arial; */
+  font-family: 'Poppins', sans-serif;
+  text-decoration:none;
+  
+}
+
+nav {
+  width:100%;
+}
+
+.top-part {
+  position:sticky;
+  top:0;
+  right:0;
+  left:0;
+  background-color:#000F9F;
+  height:40px;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:15px;
+  padding:0 100px;
+  z-index:99;
+}
+
+.bottom-part {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position:sticky;
+  top:0;
+  left:0;
+  right:0;
+  height:80px;
+  padding:0 100px;
+}
+
+.right-nav, .left-nav {
+  display:flex;
+  gap:30px;
+}
+
+.middle-nav h1 {
+  font-weight:400;
+}
+
+.left-nav p {
+font-weight:400;
+font-size:18px;
+color:black;
+}
+
+.left-nav p:hover {
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+.left-nav p:active {
+  color:gray;
+}
+
+.middle-nav {
+  font-size:20px;
+
+}
+
+.right-nav  {
+  height:20px;
+}
+
+.right-nav img:hover {
+ cursor:pointer;
+}
+
+header {
+  width:100%;
+  height:100vh; /*This is only for a background-imgae*/
+  background:url('./Images/header-image.png');
+  background-repeat:no-repeat;
+  /* background-position: center; */
+  background-size:cover;
+  padding:50px 200px;
+  color:white;
+  text-align: right;
+  margin-bottom:60px;
+}
+
+
+
+.text-background {
+  text-align:left;
+  display:inline-block;
+  width:400px;
+}
+
+.text-background h1 {
+  font-size:50px;
+  font-weight:400;
+  line-height:60px;
+  margin-bottom:20px;
+}
+
+.text-background p {
+  font-size:18px;
+  font-weight:400;
+  line-height:31px;
+  margin-bottom:20px;
+}
+
+.text-background button {
+  border:none;
+  border-radius:40px;
+  padding:10px 20px;
+  font-weight:400;
+}
+
+.text-background button:hover {
+  opacity:0.8;
+
+}
+
+.text-background button:active {
+  opacity:0.4;
+}
+
+/*Main div part not a section*/
+.main-div,.last-div{
+  width: 100%;
+  height:max-content; /*takes up only the needed space of elements*/
+  margin-bottom:60px;
+}
+
+.two-text-flex {
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 100px;
+}
+
+.two-text-flex button {
+  border:none;
+  border-radius:40px;
+  padding:10px 15px;
+  background-color:black;
+  color:white;
+  font-weight:400;
+}
+
+.two-text-flex button:hover {
+  opacity:0.8;
+}
+
+.two-text-flex button:active {
+  opacity:0.4;
+}
+
+.big-text {
+  font-size:50px;
+  font-weight:400;
+  line-height:60px;
+}
+
+.grid-content {
+  width:100%;  /*it will take up the remaining
+   space of main-div*/
+  padding:0px 25px;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.middle-two-image {
+  width:100%;
+  padding:0px 80px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.middle-two-image img {
+  width:100%;  /*if you don't set the width 100% of image
+  it will overflow and create extra space on page*/
+}
+
+.middle-two-image h2 {
+  font-size:23px;
+  font-weight:400;
+}
+
+.middle-two-image p {
+  font-size:13px;
+  font-weight:400px;
+  color:gray;
+  margin:10px 0px;
+}
+
+
+
+
+.left-icon, .right-icon {
+  /* background-color:gray; */
+  border:none;
+  border-radius:50%;
+  padding:5px 4px 0px 4px; /*top,right,bottom and left*/
+}
+
+
+.left-icon:hover {
+  background-color:rgba(55, 55, 55,0.1);
+  
+}
+
+.right-icon:hover {
+  background-color:rgba(55, 55, 55,0.1);
+
+}
+
+
+.left-icon:active {
+  background-color:rgba(55, 55, 55,0.5);
+
+  
+}
+
+.right-icon:active {
+  background-color:rgba(55, 55, 55,0.5);
+
+}
+
+.section-one {
+  padding:0 100px;
+  width:100%;
+  height:max-content;
+  display:flex;
+  justify-content:center;
+  column-gap:100px;
+  align-items:center;
+  /* flex-direction: row-reverse; */
+  margin-bottom:60px;
+}
+
+.left-part p{
+  padding-right:50px;
+}
+
+.left-part h1,.left2-part h1 {
+  font-size:50px;
+  font-weight:400;
+  line-height:60px;
+  
+}
+
+.left-part p,.left2-part p {
+  font-size:23px;
+  font-weight:400;
+  margin:20px 0px;
+ 
+}
+
+.left-part button,.left2-part button {
+  border:none;
+  border-radius:40px;
+  padding:10px 20px;
+  font-weight:400;
+  background:black;
+  color:white;
+}
+
+.left-part button:hover,.left2-part button:hover {
+  opacity:0.8;
+}
+
+.left-part button:active,.left2-part button:active {
+  opacity:0.4;
+}
+
+
+.section-two,.section-three{
+  padding:0 100px;
+  width:100%;
+  height:max-content;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:60px;
+}
+
+.right1-part,.left2-part{
+  width:500px;
+}
+
+.right1-part h1{
+  font-size:50px;
+  font-weight:400;
+  line-height:60px;
+}
+
+.right1-part p {
+  font-size:18px;
+  font-weight:400;
+  line-height:31px;
+  margin:20px 0px;
+}
+
+.right1-part button {
+  border:none;
+  border-radius:40px;
+  padding:10px 20px;
+  font-weight:400;
+  background:black;
+  color:white;
+}
+
+.right1-part button:hover {
+  opacity:0.8;
+}
+
+.right1-part button:active {
+  opacity:0.4;
+}
+
+
+.section-four{
+width:100%;
+height:max-content;
+display:flex;
+margin-bottom:60px;
+}
+
+.left3-part,.right3-part {
+  width:100%;
+}
+
+.left3-part img,.right3-part img {
+  width:100%; /*If your img is inside of any div, you should set the width of it to 100%
+  to take up the entire space of div,otherwise, the img will be placed on its default width
+  and can create extra spaces*/
+}
+
+.section-five {
+  padding:0px 100px;
+  width:100%;
+  height:max-content;
+  margin-bottom:60px;
+}
+
+.section-five h1 {
+  font-size:50px;
+  font-weight:400;
+  line-height:80px;
+  width:50vw;
+}
+
+.section-five .bold-text {
+  font-size:50px;
+  font-weight:600;
+  line-height:80px;
+}
+
+.small-text-icon {
+  width:100%;
+  display:flex;
+  align-items:center;
+  column-gap:10px;
+}
+
+.small-text-icon img:hover{
+  border:none;
+  border-radius:50%;
+  background-color:rgba(55, 55, 55,0.1);
+}
+
+.small-text-icon img:active {
+  background-color:rgba(55, 55, 55,0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
